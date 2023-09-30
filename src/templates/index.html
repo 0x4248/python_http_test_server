@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>It works!</title>
+        <meta name="description" content="It works!">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .title {
+                font-size: 50px;
+                text-align: center;
+                margin-bottom: 2px;
+            }
+            .subtitle {
+                margin-top: 0px;
+                font-size: 25px;
+                color: rgb(74, 74, 74);
+                text-align: center;
+            }
+            .main {
+                margin: auto;
+                width: 90%;
+                font-size: 20px;
+                background-color: rgb(228, 228, 228);
+                padding: 10px;
+                border-radius: 10px;
+                box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.351);
+            }
+
+            a {
+                color: rgb(72, 110, 215);
+            }
+            
+            .footer{
+                font-size: 15px;
+                color: rgb(74, 74, 74);
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                text-align: center;
+            }
+
+            @media (prefers-color-scheme: dark) {
+                body {
+                    background-color: rgb(35, 35, 35);
+                    color: white;
+                }
+                .main {
+                    background-color: rgb(49, 49, 49);
+                    color: white;
+                }
+                .subtitle {
+                    color: rgb(228, 228, 228);
+                }
+                a {
+                    color: rgb(88, 125, 227);
+                }
+            }
+        </style>
+    </head>
+        <h1 class="title">It works!</h1>
+        <h2 class="subtitle">This server powered by <span style="color:rgb(103, 163, 183);">python</span> works.</h2>
+        <div class="main">
+            <h3>What does this mean?</h3>
+            <p>If you can read this message it means that installing flask and running the server was successful.</p>
+            <p>It also means that your server can also access the port you set it to.</p>
+            <h3>What do I do next?</h3>
+            <p>You can start learning flask and its features, here are some good tutorials:</p>
+            <li><a href="https://www.tutorialspoint.com/flask/index.htm">Tutorials point</a></li>
+            <li><a href="https://www.freecodecamp.org/news/tag/flask/">Free code camp</a></li>
+            <li><a href="https://www.youtube.com/watch?v=Z1RJmh_OqeA&ab_channel=freeCodeCamp.org">Youtube tutorial 1</a></li>
+            <li><a href="https://www.youtube.com/watch?v=2YOBmELm_v0&ab_channel=ProgrammingKnowledge">Youtube tutorial 2</a></li>
+        </div>
+        <div class="footer">
+            <p>This project is open source.</p>
+        </div>
+    </body>
+</html>
