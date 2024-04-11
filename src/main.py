@@ -1,7 +1,7 @@
 # Python http test server
 # A simple it works page to test network connectivity
-# Github: https://www.github.com/lewisevans2007/Python_http_test_server
-# By: Lewis Evans
+# Github: https://www.github.com/0x4248/Python_http_test_server
+# By: 0x4248
 
 from flask import Flask, render_template, request, redirect, url_for, flash
 
